@@ -46,13 +46,10 @@ The application implements a variety of solving strategies:
 2. **Backtracking Algorithm**: Guarantees finding the exact maximum clique with an optional time limit; runs on the front-end.
 
 
-3. **C++ Algorithm (Shalin Shah)**: Utilizes **native compiled binaries** to handle the computational complexity of NP-hard problems. This ensures maximum execution speed for large-scale graph analysis.
+3. **Branch & Bound (Grigory Zhigalov)**: A Python-based approach running on the back-end.
 
 
-4. **Branch & Bound (Grigory Zhigalov)**: A Python-based approach running on the back-end.
-
-
-5. **NetworkX Algorithm**: Uses the `max_clique` function from the NetworkX Python library.
+4. **NetworkX Algorithm**: Uses the `max_clique` function from the NetworkX Python library.
 
 
 

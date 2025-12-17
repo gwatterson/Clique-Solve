@@ -18,23 +18,6 @@
         "call_format": "python ${pythonFilePath} --path ${graphFilePath} --time ${timeLimit}"
       },
       {
-        "name": "genetic",
-        "path": "src/external_algorithms/a.exe",
-        "extension": ".exe",
-        "format": "dimacs",
-        "parameters": [
-          {
-            "name": "graphFile.txt",
-            "type": "file"
-          },
-          {
-            "name": "numIterations",
-            "type": "integer"
-          }
-        ],
-        "call_format": "${executablePath} ${graphFilePath} ${numIterations}"
-      },
-      {
         "name": "networkX",
         "path": "src/external_algorithms/networkx_max_clique.py",
         "extension": ".py",

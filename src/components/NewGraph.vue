@@ -40,7 +40,6 @@
             <option value="greedy">Greedy</option>
             <option value="backtracking">Backtracking</option>
             <option value="branch_and_bound">Branch & bound by Grigory Zhigalov (external)</option>
-            <option value="genetic">Genetic algorithm by Shalin Shah (external)</option>
             <option value="networkX">NetworkX algorithm (external)</option>
           </select>
           <div v-if="paramTimeLimit || selectedAlgorithm == 'backtracking'">
