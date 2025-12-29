@@ -1,10 +1,10 @@
-# CliqueSolve 🔍
+# CliqueSolve
 
 **CliqueSolve** is a web application designed to read, parse, and analyze undirected graphs to identify their main properties and find the **Maximum Clique**. Developed by **Guelfo Watterson** during the Academic Year 2023/24 at **KU Leuven (Gent)**, this project was supervised by **Professor Tony Wauters**.
 
 The application serves as a fast, easy-to-use, and expandable tool for programmers and mathematicians to handle the NP-hard problem of finding the largest subset of vertices where every pair is connected.
 
-## 🚀 Key Features
+## Key Features
 
 * **Graph Upload & Parsing**: Support for `.txt` graph files in multiple formats.
 
@@ -19,7 +19,7 @@ The application serves as a fast, easy-to-use, and expandable tool for programme
 
 
 
-## 📂 Supported Graph Formats
+## Supported Graph Formats
 
 CliqueSolve can process graphs represented as:
 
@@ -36,7 +36,7 @@ CliqueSolve can process graphs represented as:
 
 
 
-## 🧠 Available Algorithms
+## Available Algorithms
 
 The application implements a variety of solving strategies:
 
@@ -53,7 +53,7 @@ The application implements a variety of solving strategies:
 
 
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 The project follows a modern decoupled architecture:
 
@@ -67,7 +67,7 @@ The project follows a modern decoupled architecture:
 
 
 
-## 💻 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -88,7 +88,6 @@ The project follows a modern decoupled architecture:
 cd MaxClique_project
 npm install
 npm run build
-[cite_start]``` [cite: 162, 165, 168]
 
 ```
 
@@ -97,8 +96,6 @@ npm run build
 ```bash
 cd MaxClique_project/server
 node server.js
-[cite_start]``` [cite: 159, 160]
-
 
 ```
 
